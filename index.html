@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Macarena Rabosto | Frontend / Web Developer</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  </head>
+
+  <body>
+    <!-- THEME TOGGLE -->
+    <div class="theme-toggle" id="themeToggle" aria-label="Cambiar tema">
+      <div class="toggle-circle">
+        <i class="fas fa-sun"></i>
+      </div>
+    </div>
+
+    <!-- NAV -->
+    <header>
+      <div class="container">
+        <nav>
+          <a href="#inicio" class="logo">Macarena <span class="logo-dot"></span></a>
+          <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <h1>Macarena Rabosto</h1>
+            <p class="hero-subtitle">Software Engineer / Web Developer</p>
+            <div class="accent-line"></div>
+            <!-- <p class="hero-description">
+              Desarrollo sitios web claros, funcionales y bien pensados.<br />Trabajo con atención al detalle, código mantenible y foco en resolver
+              necesidades reales.
+            </p> -->
+            <p class="hero-description">
+              Desarrollo productos digitales claros, funcionales y bien pensados, con atención al detalle y foco en resolver necesidades reales.
+            </p>
+            <div class="btn-row">
+              <a href="#proyectos" class="btn btn-primary"><i class="fas fa-code"></i> Ver proyectos</a>
+              <a href="#sobre-mi" class="btn btn-secondary"><i class="fas fa-paper-plane"></i> Contacto</a>
+            </div>
+          </div>
+          <div class="hero-photo">
+            <div class="photo-card">
+              <img class="photo" src="assets/maca-hero.webp" alt="Foto de Macarena" />
+              <div class="photo-caption">
+                <div>
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>Montevideo, Uruguay · Disponible para trabajo remoto</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE MÍ (Ahora va primero, antes de proyectos) -->
+    <section id="sobre-mi" class="about-section">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <h3>Sobre mí</h3>
+            <p>
+              Soy <span class="highlight">desarrolladora web</span> con formación en ingeniería. Me gusta construir interfaces claras, eficientes y
+              que brinden una buena experiencia de usuario.
+            </p>
+            <p>
+              Vengo del mundo del desarrollo de software empresarial, donde aprendí la importancia de la estructura, el análisis y la calidad del
+              código.
+            </p>
+            <p>Hoy aplico esa experiencia para crear productos web funcionales y estéticamente cuidados.</p>
+          </div>
+
+          <aside class="focus-card" aria-label="Enfoque de trabajo">
+            <h3>Enfoque</h3>
+
+            <ul class="focus-list">
+              <li><i class="fas fa-check"></i><span>Claridad antes que complejidad</span></li>
+              <li><i class="fas fa-check"></i><span>Estructura y criterio técnico</span></li>
+              <li><i class="fas fa-check"></i><span>Código mantenible</span></li>
+              <li><i class="fas fa-check"></i><span>Atención al detalle</span></li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades">
+      <div class="container">
+        <h2 class="section-title">Habilidades técnicas</h2>
+        <p class="section-subtitle">Una combinación de experiencia en desarrollo empresarial y tecnologías web modernas.</p>
+
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h4><i class="fas fa-code"></i> Frontend & Web</h4>
+            <ul class="skill-list">
+              <li><i class="fas fa-chevron-right"></i> HTML5, CSS3, JavaScript (ES6+)</li>
+              <li><i class="fas fa-chevron-right"></i> React & Hooks</li>
+              <li><i class="fas fa-chevron-right"></i> Astro</li>
+              <li><i class="fas fa-chevron-right"></i> Responsive Design & Mobile First</li>
+              <li><i class="fas fa-chevron-right"></i> Tailwind CSS</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h4><i class="fas fa-server"></i> Backend & Herramientas</h4>
+            <ul class="skill-list">
+              <li><i class="fas fa-chevron-right"></i> Node.js & Express</li>
+              <li><i class="fas fa-chevron-right"></i> Bases de datos SQL/NoSQL</li>
+              <li><i class="fas fa-chevron-right"></i> Git, GitHub</li>
+              <li><i class="fas fa-chevron-right"></i> APIs REST</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h4><i class="fas fa-laptop-code"></i> Experiencia profesional</h4>
+            <ul class="skill-list">
+              <li><i class="fas fa-chevron-right"></i> Desarrollo de sistemas ERP</li>
+              <li><i class="fas fa-chevron-right"></i> +15 años de experiencia en GeneXus</li>
+              <li><i class="fas fa-chevron-right"></i> Análisis y diseño de sistemas</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="proyectos" class="projects-section">
+      <div class="container">
+        <div class="projects-header">
+          <h2>Proyectos</h2>
+          <p>Una selección de trabajos recientes que muestran mi enfoque en desarrollo web y solución de problemas</p>
+        </div>
+
+        <div class="projects-grid-2x2">
+          <!-- Proyecto 1: Consultoría Gastronómica -->
+          <article class="project-with-thumb">
+            <div class="project-thumbnail">
+              <img src="./assets/proyecto1.png" alt="Consultoría Gastronómica" />
+            </div>
+
+            <div class="project-content-compact">
+              <div class="project-header-with-badge">
+                <div class="project-title-with-badge">
+                  <h3>Consultoría Gastronómica</h3>
+                </div>
+                <span class="project-badge-right badge-real">Real</span>
+              </div>
+
+              <p class="project-description-compact">
+                Sitio web institucional para una consultora especializada en negocios gastronómicos. Diseño y desarrollo completos, con foco en
+                contenido claro, estructura lógica y performance.
+              </p>
+
+              <div class="tech-stack-compact">
+                <span class="tech-tag-compact">HTML5</span>
+                <span class="tech-tag-compact">CSS3</span>
+                <span class="tech-tag-compact">JavaScript</span>
+              </div>
+
+              <div class="project-actions-compact">
+                <a href="https://www.egoconsultoria.com/" target="_blank" rel="noopener noreferrer" class="btn-xsmall btn-demo-xsmall">
+                  <i class="fas fa-external-link-alt fa-xs"></i>
+                  <span>Demo</span>
+                </a>
+                <a href="https://github.com/macauy/ego-consultoria" target="_blank" rel="noopener noreferrer" class="btn-xsmall btn-code-xsmall">
+                  <i class="fab fa-github fa-xs"></i>
+                  <span>Código</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyecto 2: E-commerce React -->
+          <article class="project-with-thumb">
+            <div class="project-thumbnail">
+              <img src="./assets/proyecto2.png" alt="Consultoría Gastronómica" />
+            </div>
+
+            <div class="project-content-compact">
+              <div class="project-header-with-badge">
+                <div class="project-title-with-badge">
+                  <h3>E-commerce React</h3>
+                </div>
+                <span class="project-badge-right badge-practice">Práctica</span>
+              </div>
+
+              <p class="project-description-compact">
+                Tienda online desarrollada en React como proyecto de práctica. Implementación de carrito de compras, gestión de estado y persistencia
+                de datos con Firebase.
+              </p>
+
+              <div class="tech-stack-compact">
+                <span class="tech-tag-compact">React</span>
+                <span class="tech-tag-compact">Material UI</span>
+                <span class="tech-tag-compact">Firebase</span>
+              </div>
+
+              <div class="project-actions-compact">
+                <a href="https://ecommerce-nldd.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn-xsmall btn-demo-xsmall">
+                  <i class="fas fa-external-link-alt fa-xs"></i>
+                  <span>Demo</span>
+                </a>
+                <a href="https://github.com/macauy/ecommerce" target="_blank" rel="noopener noreferrer" class="btn-xsmall btn-code-xsmall">
+                  <i class="fab fa-github fa-xs"></i>
+                  <span>Código</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyecto 3: Buscaminas JS -->
+          <article class="project-with-thumb">
+            <div class="project-thumbnail">
+              <img src="./assets/proyecto3.png" alt="Consultoría Gastronómica" />
+            </div>
+
+            <div class="project-content-compact">
+              <div class="project-header-with-badge">
+                <div class="project-title-with-badge">
+                  <h3>Buscaminas en JS</h3>
+                </div>
+                <span class="project-badge-right badge-learning">Aprendizaje</span>
+              </div>
+
+              <p class="project-description-compact">
+                Clásico juego de buscaminas implementado en JavaScript vanilla. Enfocado en lógica de programación, manejo del DOM y estructura de
+                datos.
+              </p>
+
+              <div class="tech-stack-compact">
+                <span class="tech-tag-compact">JavaScript</span>
+                <span class="tech-tag-compact">HTML5</span>
+                <span class="tech-tag-compact">CSS3</span>
+                <span class="tech-tag-compact">Algoritmos</span>
+              </div>
+
+              <div class="project-actions-compact">
+                <a href="https://macauy.github.io/buscaminas/" target="_blank" rel="noopener noreferrer" class="btn-xsmall btn-demo-xsmall">
+                  <i class="fas fa-gamepad fa-xs"></i>
+                  <span>Jugar</span>
+                </a>
+                <a href="https://github.com/macauy/buscaminas" target="_blank" rel="noopener noreferrer" class="btn-xsmall btn-code-xsmall">
+                  <i class="fab fa-github fa-xs"></i>
+                  <span>Código</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyecto 4: Be Living -->
+          <article class="project-with-thumb">
+            <div class="project-thumbnail">
+              <img src="./assets/proyecto4.png" alt="Be Living" />
+            </div>
+
+            <div class="project-content-compact">
+              <div class="project-header-with-badge">
+                <div class="project-title-with-badge">
+                  <h3>Be Living</h3>
+                </div>
+                <span class="project-badge-right badge-freelance">Freelance</span>
+              </div>
+
+              <p class="project-description-compact">
+                Sitio institucional para una empresa de alquiler de mobiliario para eventos. Proyecto freelance que quedó en etapa de desarrollo,
+                presentado como demo. Incluye catálogo de productos y un panel de administración para gestión de precios y contenidos.
+              </p>
+
+              <div class="tech-stack-compact">
+                <span class="tech-tag-compact">React</span>
+                <span class="tech-tag-compact">Bootstrap</span>
+                <span class="tech-tag-compact">MongoDB</span>
+              </div>
+
+              <div class="project-actions-compact">
+                <a href="https://beliving.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn-xsmall btn-demo-xsmall">
+                  <i class="fas fa-external-link-alt fa-xs"></i>
+                  <span>Demo</span>
+                </a>
+                <a href="https://github.com/macauy/beliving" target="_blank" rel="noopener noreferrer" class="btn-xsmall btn-code-xsmall">
+                  <i class="fab fa-github fa-xs"></i>
+                  <span>Código</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA / CONTACT -->
+    <section class="cta" id="contacto">
+      <div class="container">
+        <div class="cta-grid">
+          <div>
+            <h3>¿Trabajamos juntos?</h3>
+            <p>
+              Si buscás un sitio web claro, funcional y hecho con cuidado, escribime. Me gusta trabajar con objetivos concretos y un proceso ordenado.
+            </p>
+            <div class="btn-row" style="margin-top: 18px">
+              <a href="mailto:hola@tudominio.com" class="btn btn-primary"><i class="fas fa-envelope"></i> Contactar por email</a>
+            </div>
+          </div>
+
+          <div>
+            <div class="social-links" aria-label="Redes">
+              <a href="https://www.linkedin.com/in/macarena-rabosto/" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://github.com/macauy" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <!-- <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a> -->
+              <!-- <a href="#" class="social-link" aria-label="CodePen"><i class="fab fa-codepen"></i></a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-dark">
+      <div class="container">
+        <p>© <span id="year"></span> Macarena Rabosto · Software Engineer / Web Developer</p>
+      </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
